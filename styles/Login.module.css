@@ -1,0 +1,38 @@
+/* styles/Login.module.css */
+
+.container {
+    max-width: 400px;
+    margin: 2rem auto;
+    font-family: Arial, sans-serif;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    font-size: 16px;
+  }
+  
+  .button {
+    padding: 0.8rem;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .link {
+    color: #0070f3;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .error {
+    color: red;
+  }
+  

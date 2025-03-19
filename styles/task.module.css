@@ -1,0 +1,90 @@
+/* styles/Task.module.css */
+
+/* Contenedor principal */
+.container {
+    max-width: 600px;
+    margin: 2rem auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Estilo del formulario */
+  .form {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  /* Estilo para los campos del formulario */
+  .input {
+    padding: 0.5rem;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Botón para añadir tareas */
+  .addButton {
+    padding: 0.5rem;
+    background-color: #0070f3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .addButton:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Lista de tareas */
+  .taskList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Estilo para cada tarea */
+  .taskItem {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  /* Botones para editar y eliminar tareas */
+  .editButton {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    transition: background-color 0.3s;
+  }
+  
+  .editButton:hover {
+    background-color: #e68a00;
+  }
+  
+  .deleteButton {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .deleteButton:hover {
+    background-color: #cc0000;
+  }
+  
