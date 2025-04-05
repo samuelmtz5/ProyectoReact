@@ -21,3 +21,6 @@ Asegúrate de tener instalado lo siguiente en tu ordenador o laptop:
 ```bash
 npm install
 y para correr el proyecto npm run dev
+
+Link del video del proyecto: https://youtu.be/_-Hd0g_GVJs
+
